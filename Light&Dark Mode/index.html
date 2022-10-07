@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light & Light Mode | Workshop</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ! link add path จาก fontawesome.com -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
+<body>
+    <div class="theme-switch-container">
+        <span id="toggle-icon" class="toggle-icon">
+            <span class="toggle-text"> Light Mode </span>
+            <i class="fa-solid fa-sun"></i>
+            <!-- <i class="fa-solid fa-moon"></i> -->
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round">
+
+            </div>
+        </label> 
+    </div>
+
+
+    <nav id="nav">
+        <a href="#Home"> Home </a>              <!-- ! ชื่อ section ต้องตรงกับใน a href ถึงจะลิ้งเข้าหากันได้ -->
+        <a href="#Project"> Project </a>
+        <a href="#Contact"> Contact </a>
+    </nav>
+
+
+    <section id="Home">                         <!-- ! ชื่อ section ต้องตรงกับใน a href ถึงจะลิ้งเข้าหากันได้ -->             
+        <div class="title-group">
+            <h1> Por_Workspace = </h1>
+            <h2> [Robot, WebDevelop, Japanese] </h2>
+        </div>
+    </section>
+
+    <section id="Project"> 
+        <h1> ผลงานด้านโปรเจค </h1>
+        <div class="project-container">
+            <div class="image-container">
+                <h2> หุ่นยนต์ </h2>
+                <img src="img/Robot_light.svg" alt="" id="image1">
+            </div>
+            <div class="image-container">
+                <h2> พัฒนาเว็บไซต์ </h2>
+                <img src="img/WebDev_light.svg" alt="" id="image2">
+            </div>
+            <div class="image-container">
+                <h2> ภาษาญี่ปุ่น </h2>
+                <img src="img/japanese_light.svg" alt="" id="image3">
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact"> 
+        <div class="social">
+            <i class="fa-sharp fa-solid fa-square-envelope"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
